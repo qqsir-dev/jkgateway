@@ -28,7 +28,7 @@ jobs:
         run: python vpngate.py
         env:
           # 已部署的检测 Worker (不要改动: 检测统一走这里)
-          CHECK_WORKER: "shturl.cc/7Kxa8lst6BauVn7DaMbCBijWwCsIqMBkxPCUu"
+          CHECK_WORKER: "shturl.cc/f8tMBo8mIKChsTgKusmZRG3KyJQptcoNStN9I"
           CHECK_CONCURRENCY: "32"
           CHECK_TIMEOUT: "90"
       - name: Ensure GitHub Pages is enabled (one-time auto setup)
