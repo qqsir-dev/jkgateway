@@ -460,7 +460,7 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "my.vultr.com:443,cf-cname.xingpingcn.top:443,cdn.cnno.de:443,tt.78607323.xyz:443,kaspa.stream:443,pubs.acs.org:443,www.copilot.com:443,dianomi.com:443,cf.xreak.top:443,cf2.996616.xyz:443,ikankeji.com:443,i.pixiv.re:443,envato.com:443,mvnrepository.com:443,s.ee:443,tinyurl.com:443,codeforces.com:443,img.dexbug.com:443,www.trumpinternationalrealty.com:443,www.zendesk.com:443,packtpub.com:443,www.vmware.com:443,www.acces-maroc.ma:443,www.applevis.com:443,ip.sb:443,"
+        "www.npmjs.com:443,fbi.gov:443,fn.130519.xyz:443,my.vultr.com:443,cf-cname.xingpingcn.top:443,cdn.cnno.de:443,tt.78607323.xyz:443,kaspa.stream:443,pubs.acs.org:443,www.copilot.com:443,dianomi.com:443,cf.xreak.top:443,cf2.996616.xyz:443,ikankeji.com:443,i.pixiv.re:443,envato.com:443,mvnrepository.com:443,s.ee:443,tinyurl.com:443,codeforces.com:443,img.dexbug.com:443,www.trumpinternationalrealty.com:443,www.zendesk.com:443,packtpub.com:443,www.vmware.com:443,www.acces-maroc.ma:443,www.applevis.com:443,ip.sb:443,"
         "vps.cheng2001.top:443,www.mastervolt.com:443,iskills.com:443,sci-hub.al:443,www.mediafire.com:443,helium.computer:443,assets.bizclikmedia.net:443,www.wuduanyun.com:443,cmcc.cc.cd:443,mskcc.org:443,aqua-aria.company:443,99.co:443,de.102198.xyz:443,ovpnspider.com:443,ooo.0o0.ooo:443,vayyar.com:443,www.stayaka.com:443,cdn.fiatnorm.us.kg:443,cdn.violet.vin:443,www.epicgames.com:443,spring.io:443,brandstudio.com:443,worldvectorlogo.com:443,stores.staples.com:443,duckybot.xyz:443,www.whoer.net:443,hubspot.com:443,dx.doi.org:443"
     ).split(",")
     if h.strip()
